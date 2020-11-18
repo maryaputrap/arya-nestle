@@ -1,0 +1,170 @@
+body {
+	margin:0;
+}
+ 
+hr {
+	border:0;
+	background:#dedede;
+	height:1px;
+}		
+ 
+.wrap {
+	width: 1032px;
+	margin:25px auto;
+}
+
+
+@font-face {
+	font-family: 'Roboto'; src: url(fonts/roboto/Roboto-LightItalic.ttf);
+}
+
+.navbar{
+	background: rgba(0, 0, 0, 0.9);
+	position: fixed;
+	z-index: 10;
+	width: 100%;	
+}
+
+.parallaxabout{
+	height: 500px;
+	background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(10, 9, 9, 0.9)),url("images/nestle.gif");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 200px;
+	color: white;
+	font-family: 'Roboto';
+}
+
+.parallaxabout h3{
+	font-size: 45px;
+}
+
+.parallax{
+	height: 150px;
+	background: linear-gradient(rgba(10, 9, 9, 0.9),rgba(10, 9, 9, 0.9)),url("images/nestlecompany.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 50px;
+	color: white;
+	font-family: 'Roboto';
+}
+
+.about {
+	width: 986px;
+	padding: 10px;
+	margin: 10px 10px 10px 10px;
+	background: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 25px;
+}
+
+.about p{
+	text-align: justify;
+}
+
+.about img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+ 
+.blog {
+	float:left;
+}
+ 
+.content {
+	border-radius: 25px;
+	width:300px;
+	padding:15px;
+	margin:22px;
+	background: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ 
+.content img {
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+ 
+.content h2 {
+	padding:0;
+	margin:0 0 15px;
+	font-weight: normal;
+	color: #666;
+}
+ 
+.content .continue {
+	color:#000;
+	transition: all 0.5s ease;
+	text-decoration: none;
+	font-weight: 700; 
+}
+ 
+.content .continue:hover {
+	color: red;
+	margin-left:10px;
+}
+
+.wrap:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.parallaxcontact{
+	height: 150px;
+	background: linear-gradient(rgba(10, 9, 9, 0.9),rgba(10, 9, 9, 0.9)),url("images/nestlecompany.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 50px;
+	margin-bottom: 50px;
+	color: white;
+	font-family: 'Roboto';
+}
+
+.img-responsive{
+	width: 400px;
+	float: left;
+	padding-top: 20px;
+}
+
+.contact{
+	width: 50%;
+	float: right;
+}
+
+button{
+	float: right;
+}
+
+@font-face{
+	font-family: 'Goldman'; src: url(fonts/goldman/Goldman-Regular.ttf);
+}
+
+.footer {
+	width: 100%;
+	margin-top: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: black;
+	color: white;
+	text-align: center;
+	font-family: 'Goldman';
+	position: relative;
+}
+
+.footer h3 {
+	font-size: large;
+}
